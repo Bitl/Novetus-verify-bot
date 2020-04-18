@@ -1,3 +1,9 @@
+const express = require('express')
+const app = express()
+//needed for heroku
+const port = process.env.PORT || 3000
+app.listen(port, () => console.log(`Example app listening on port ${port}!`))
+
 const Discord = require('discord.js');
 const client = new Discord.Client();
 

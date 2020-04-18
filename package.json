@@ -1,0 +1,19 @@
+{
+  "name": "Novetus Verification Bot",
+  "description": "Bot for verifying users",
+  "version": "1.0.0",
+  "main": "NovBot.js",
+  
+  "engines": {
+    "node": "10.x",
+    "npm": "*"
+  },
+
+  "scripts": {
+    "start": "node NovBot.js",
+  },
+
+  "dependencies": {
+    "discord.js": "^12.2.0",
+  }
+}

@@ -4,7 +4,7 @@ const client = new Discord.Client();
 client.on('message', message => {
 	if (message.content.includes(process.env.WEB))
 	{
-		message.guild.channels.get(process.env.STAFF_CHANNEL_ID).send('NOTICE: Potentially underage user detected. Name: '.concat(message.author.username,'#',message.author.tag,' | Channel: #',message.guild.channels.get(message.channel.id).name))
+		client.channels.get(process.env.STAFF_CHANNEL_ID).send('NOTICE: Potentially underage user detected. Name: '.concat(message.author.username,'#',message.author.tag,' | Channel: #',message.guild.channels.get(message.channel.id).name))
 	}
 });
 

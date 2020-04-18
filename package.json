@@ -1,5 +1,5 @@
 {
-  "name": "Novetus Verification Bot",
+  "name": "novetus-verification-bot",
   "description": "Bot for verifying users",
   "version": "1.0.0",
   "main": "NovBot.js",
